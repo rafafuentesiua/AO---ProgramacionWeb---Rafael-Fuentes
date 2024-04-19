@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de gestión de turnos médicos</title>
+    <link rel="stylesheet" href="../../../styles/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="../../../index.html"><h1>Clinica del Sol S.R.L.</h1></a>
+        <h2>Sistema de Gestión de Turnos Médicos</h2>
+    </header>
+    <hr>
+    <main>
+        <div class="sidebar">
+            <h2>Especialidades médicas</h2>
+            <ul class="especialidades">
+                <a href="../../especialidades/clinicaGeneral.html">
+                    <li>Clínica general</li>
+                </a>
+                <a href="../../especialidades/gastroenterologia.html">
+                    <li>Gastroenterología</li>
+                </a>
+                <a href="../../especialidades/cardiologia.html">
+                    <li>Cardiología</li>
+                </a>
+                <a href="../../especialidades/peditatria.html">
+                    <li>Pediatría</li>
+                </a>
+                <a href="../../especialidades/oncologia.html">
+                    <li>Oncología</li>
+                </a>
+            </ul>
+
+            <ul class="contactanos">
+                <a href="../../formContacto.html">
+                    <li>Contactanos</li>
+                </a>
+            </ul>
+        </div>
+
+        <div class="containerEspecialista">
+            <img src="https://hospital.uillinois.edu/images/clinicians/vkgadi.jpg" alt="">
+            <table class="tabla">
+                <tbody>
+                    <tr>
+                        <td>Vera</td>
+                        <td>Samuel</td>
+                        <td>Oncología</td>
+                        <td>Lunes, Martes, Jueves</td>
+                        <td>15:00 - 20:00</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <div class="cardEspecialista">
+                <h2>Formulario de consulta</h2>
+                <form action="../../formularioEnviado.html" method="get" class="formEspecialista">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required>
+
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="dni">DNI:</label>
+                    <input type="number" id="dni" name="dni" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="fechaTurno">Fecha del turno:</label>
+                    <input type="date" id="fechaTurno" name="fechaTurno" required>
+
+                    <label for="horaTurno">Horario del turno:</label>
+                    <input type="time" id="horaTurno" name="horaTurno" required>
+
+                    <input type="submit" id="enviar" value="Enviar">
+                    <a href="../../especialidades/cardiologia.html"><input type="button" id="volver"
+                            value="Volver al listado"></a>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,264 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #36395e;
+}
+
+.header {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #1e1f29;
+    padding: 10px;
+    width: 100%;
+
+}
+
+.header h1 {
+    margin: 5px;
+}
+
+.header h2 {
+    font-weight: 100;
+    margin: 5px;
+}
+
+.header a h1 {
+    color: white;
+    text-decoration: none;
+}
+
+:-webkit-any(a) {
+    text-decoration: none;
+}
+
+hr {
+    margin-top: 6px;
+}
+
+.container {
+    text-align: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 260px;
+}
+
+.container img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 5px;
+    
+}
+
+.containerEspecialista {
+    text-align: center;
+    align-items: start;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 260px;
+    
+}
+
+.containerEspecialista img {
+    height: auto;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px; 
+    padding: 5px;
+}
+
+.cardEspecialista {
+    background-color: #27293c;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.cardEspecialista input {
+    margin: 5px;
+}
+.cardEspecialista input#volver{
+    background-color: rgb(92, 140, 156);
+}
+
+
+.containerEspecialista td {
+    width: 400px;
+    flex-direction: column;
+    display: block;
+    padding: 5px;
+    text-align: left;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+
+}
+.containerEspecialista table  {
+    width: 50%;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #1e1f29;
+    border-radius: 8px;
+    margin-top: 20px;
+    width: 200px;
+    border: none;
+}
+
+
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    background-color: #27293c;
+    border-radius: 5px;
+    padding: 20px;
+    height: 100vh;
+}
+
+.sidebar h2 {
+    padding: 10px;
+    color: white;
+    font-weight: 100;
+    background-color: #36395e;
+    text-align: center;
+    border-radius: 5px;
+    font-style: italic;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.sidebar li {
+    font-size: 150%;
+    background-color: #f2e3f9;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px 0px;
+    border-radius: 5px;
+    margin: 13px 0px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.sidebar li:hover {
+    background-color: #a0a0a0
+}
+
+.sidebar li:visited {
+    text-decoration: none;
+}
+
+.sidebar ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.contactanos li {
+    background-color: greenyellow
+}
+
+.contactanos li:hover {
+    background-color: green
+}
+
+table {
+    border-collapse: collapse;
+    width: 99%;
+    height: auto;
+    text-align: center;
+}
+.tabla img {
+    height: auto;
+    width: 150px;
+}
+
+.card {
+    background-color: #27293c;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 800px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card label {
+    font-size: 20px;
+}
+
+input[type="button"],
+input[type="time"],
+input[type="date"],
+input[type="email"],
+input[type="number"],
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+    color: white;
+    background-color: #36395e;
+    
+}
+
+input[type="submit"],
+input[type="button"] {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.btnvolver {
+    width: 200px;
+    background-color: #1e1f29;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
